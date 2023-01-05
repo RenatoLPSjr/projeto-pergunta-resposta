@@ -11,7 +11,11 @@ app.get("/" ,(req, res)=> {
 
 app.get("/perguntar", (req, res)=>{
     res.render("perguntar");
-})
+});
+
+app.post("/salvarpergunta", (req, res)=>{
+    res.send("Formulario Recebido!");
+});
 
 
 

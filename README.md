@@ -11,7 +11,7 @@
 * Sequelize
 * EJS
 * Body-Parser
-* MySQL
+* MySQL2
 
 
 
